@@ -1,6 +1,6 @@
 {
   "name": "@zhunb/datav-material",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "@zhunb/datav-material",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -27,8 +27,12 @@
     "test": "test"
   },
   "keywords": [
-    "Fusion"
+    "lowcode"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bynnchoo/datav-material.git"
+  },
   "author": "fusion-team",
   "license": "MIT",
   "husky": {
@@ -75,6 +79,8 @@
     "webpack": "^4.46.x"
   },
   "componentConfig": {
-    "isComponentLibrary": true
-  }
+    "isComponentLibrary": true,
+    "materialSchema": "https://unpkg.com/@zhunb/datav-material@0.1.5/build/lowcode/assets-prod.json"
+  },
+  "homepage": "https://unpkg.com/@zhunb/datav-material@0.1.0/build/index.html"
 }
